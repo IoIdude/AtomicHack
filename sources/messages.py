@@ -40,12 +40,23 @@ pin_info = '''
 Я закрепил это сообщение, чтобы вы в любой момент могли найти инструкцию!
 '''
 
-start_repeat = '''
-Вы уже запускали бота)
+wait_print_answ = '''
+Дождитесь моего ответа...
 '''
+
+idk_text = '''
+Извините, я вас не понимаю, воспринимаю только сообщения с фото, желательно сварных швов :)
+'''
+
+error = '''
+ошибка(
+'''
+
 
 MESSAGES = {
     'pin_msg': pin_msg,
     'pin_info': pin_info,
-    'start_repeat': start_repeat
+    'wait_print_answ': wait_print_answ,
+    'idk_text': idk_text,
+    'error': error
 }
